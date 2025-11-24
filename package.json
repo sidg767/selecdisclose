@@ -1,0 +1,17 @@
+{
+  "name": "selective-disclosure-mvp",
+  "version": "1.0.0",
+  "description": "Selective disclosure MVP using BBS+ signatures",
+  "type": "module",
+  "scripts": {
+    "cli": "ts-node src/cli.ts"
+  },
+  "dependencies": {
+    "@mattrglobal/bbs-signatures": "^0.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.0",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.5.6"
+  }
+}
